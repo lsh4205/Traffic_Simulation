@@ -60,14 +60,15 @@ size $x_{i+1} − x_i ≡ s$.
 $t_{j+1} − t_j ≡ h$.
 * The approximate density at point $x_i$ and time $t_j$ is $ρ_{i,j}$.
 * The approximate flow at $x_i$ and $t_j$ is $f(i\ ,\ j) = f (ρ_i,j)$. Then the Lax-Friedrichs update formula is given by
+
 ```math
 ρ_{i\ , j+1} = \frac{ρ_{i+1\ ,j} + ρ_{i−1\ ,j}}{2} − \frac{h}{s} \frac{ f_{i+1\ ,j} − f{i−1\ ,j} }{2}
 ```
 
-> (a) Upwind Scheme (with $0.05s$ time-step) <br\>
-> (b) Lax-Friedrichs Scheme (with $0.05s$ time-step) <br\>
-> (c) Lax-Friedrichs Scheme (with $0.1s$ time-step) <br\>
-> (d) Lax-Friedrichs Scheme (with $0.2s$ time-step) <br\>
+* (a) Upwind Scheme (with $0.05s$ time-step)
+* (b) Lax-Friedrichs Scheme (with $0.05s$ time-step) 
+* (c) Lax-Friedrichs Scheme (with $0.1s$ time-step)
+* (d) Lax-Friedrichs Scheme (with $0.2s$ time-step)
 
 <img src="https://github.com/lsh4205/Traffic_Simulation/assets/63761734/41fda534-2795-4154-9f39-8af7642e7c0f" width="90%" height="90%">
 <img src="https://github.com/lsh4205/Traffic_Simulation/assets/63761734/593f6009-9495-47ab-b0cb-2c8ae7015e65" width="90%" height="90%">
